@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-import",
-  "version": "1.13.1",
+  "version": "1.13.0",
   "description": "Component modular import plugin for babel.",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js src",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "prepack": "npm run build",
-    "postinstall": "yarn && yarn build",
+    "prepare": "yarn build",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
   },
   "husky": {
