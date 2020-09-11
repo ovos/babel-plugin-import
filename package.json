@@ -1,6 +1,6 @@
 {
   "name": "@ovos-media/babel-plugin-import",
-  "version": "1.13.3",
+  "version": "1.13.1",
   "description": "Fork of the component modular import plugin for babel.",
   "repository": {
     "type": "git",
